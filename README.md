@@ -49,3 +49,12 @@ Para a documentação completá do projeto, irá ser utilizado o modelo C4, divi
   - /trips
 - Criar endpoint de consulta de viagem (**GET**)
   - /trips/{tripId}
+
+#### Importante saber
+
+- Arquivos de Migration representam mudanças na estrutura de tabelas do DataBase
+  - criar uma tabela
+  - alterar tabela, remover campo, adicionar um campo
+  - instalação de driver's
+  - inserção em massa, de dados default
+- Arquivos de Migration -> scripts SQL, p/ rodar comandos no DataBase
